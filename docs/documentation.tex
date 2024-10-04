@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{opensans}
+\usepackage{geometry}
+
+\geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+
+%\renewcommand*\familydefault{\sfdefault}
+
+\title{%
+    \textbf{expenses-tracker} \\
+    \large Projekt zaliczeniowy na przedmiot Programowanie Zaawansowane
+}
+
+\author{Mikołaj Ewald}
+\date{2024/2025}
+
+\begin{document}
+   
+   \maketitle
+   
+   \noindent\makebox[\linewidth]{\rule{\columnwidth}{0.4pt}}
+   
+   \section*{Krótki opis aplikacji}
+    Aplikacja \textbf{expenses-tracker} ma na celu rozwiązanie problemu śledzenia wydatków. W tym celu każdy użytkownik
+    posiadający konto w aplikacji uzyskuje możliwość utworzenia list/y. W stworzonej liście program umożliwia dodanie
+    \textit{wydatku} zawierającego m.in. tytuł, datę oraz kwotę. Do każdego wydatku istnieje możliwość dodania zdjęcia
+    przedstawiającego otrzymany przy płatności rachunek. \\
+    Domyślenie każda lista jest prywatna, jednak może zostać udostępniona innym użytkownikom posiadającym konto w 
+    aplikacji. Wynikiem takiej operacji jest uzyskanie możliwoście dodawania lub edycji elementów listy przez wskazanych
+    użytkowników. Dodatkową funkcjonalnością jest możliwość zmiany widoczności listy na publiczną, co spowoduje 
+    możliwość wyświetlenia elementów listy przez wszystkie osoby posiadające do niej link, również te nieposiadające 
+    konta w serwisie.
+    
+\end{document}
