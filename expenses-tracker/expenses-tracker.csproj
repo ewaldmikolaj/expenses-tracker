@@ -70,6 +70,7 @@
     </Target>
 
     <ItemGroup>
+      <Folder Include="Views\User\" />
       <Folder Include="wwwroot\lib\" />
     </ItemGroup>
 

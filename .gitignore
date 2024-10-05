@@ -487,3 +487,6 @@ $RECYCLE.BIN/
 docs/*
 !docs/documentation.tex
 !docs/documentation.pdf
+
+# Node artifacts
+node_modules
