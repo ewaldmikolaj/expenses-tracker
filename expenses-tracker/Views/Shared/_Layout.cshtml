@@ -6,7 +6,18 @@
     <title>@ViewData["Title"] - expenses_tracker</title>
     <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
 </head>
-<body>
+<body class="bg-white">
+<nav class="flex flex-col text-center sm:flex-row sm:text-left sm:justify-between p-4 w-full">
+    <div class="">
+        <a href="">Expenses - Tracker</a>
+    </div>
+    <div class="">
+        <a href="">Logowanie</a>
+        <a href="">Rejestracja</a>
+    </div>
+</nav>
+<section>
     @RenderBody()
+</section>
 </body>
 </html>
